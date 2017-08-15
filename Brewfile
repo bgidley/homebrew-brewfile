@@ -77,6 +77,7 @@ cask "slack"
 cask "telegram"
 cask "textmate"
 cask "vmware-fusion"
+cask "whatsapp"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "iMovie", id: 408981434
