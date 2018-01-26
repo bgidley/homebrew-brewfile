@@ -18,6 +18,7 @@ brew "hicolor-icon-theme"
 brew "libnet"
 brew "ettercap", args: ["with-gtk+3"]
 brew "exiftool"
+brew "ffmpeg", args: ["with-fdk-aac", "with-x265"]
 brew "git"
 brew "gnu-getopt"
 brew "git-flow-avh"
@@ -30,6 +31,7 @@ brew "ideviceinstaller"
 brew "imagemagick"
 brew "kubernetes-cli"
 brew "kops"
+brew "libav"
 brew "libevent"
 brew "links"
 brew "makedepend"
@@ -61,6 +63,8 @@ cask "docker"
 cask "evernote"
 cask "firefox"
 cask "google-chrome"
+cask "gpg-suite"
+cask "gramps"
 cask "ichm"
 cask "inkscape"
 cask "iterm2"
@@ -82,3 +86,4 @@ mas "Keynote", id: 409183694
 mas "Motion", id: 434290957
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
