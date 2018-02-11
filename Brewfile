@@ -12,7 +12,7 @@ brew "sqlite"
 brew "awscli"
 brew "cmake"
 brew "cocoapods"
-brew "docker"
+brew "docker", link: false
 brew "icu4c"
 brew "hicolor-icon-theme"
 brew "libnet"
@@ -40,7 +40,7 @@ brew "maven"
 brew "mitmproxy"
 brew "ncdu"
 brew "nmap"
-brew "node"
+brew "node", link: false
 brew "p7zip"
 brew "postgresql", restart_service: true
 brew "pstree"
@@ -52,6 +52,7 @@ brew "tree"
 brew "unrar"
 brew "utf8proc"
 brew "wget"
+brew "yarn"
 brew "yuicompressor"
 brew "zsh"
 brew "zsh-completions"
@@ -59,9 +60,11 @@ cask "adobe-creative-cloud"
 cask "atom"
 cask "charles"
 cask "cyberduck"
+cask "darktable"
 cask "docker"
 cask "evernote"
 cask "firefox"
+cask "geekbench"
 cask "google-chrome"
 cask "gpg-suite"
 cask "gramps"
@@ -72,12 +75,19 @@ cask "jetbrains-toolbox"
 cask "keepassxc"
 cask "microsoft-office"
 cask "onedrive"
+cask "riot"
+cask "signal"
 cask "skype"
+cask "skype-for-business"
 cask "slack"
+cask "steam"
 cask "telegram"
 cask "textmate"
+cask "visual-studio-code"
+cask "vlc"
 cask "vmware-fusion"
 cask "whatsapp"
+cask "xmind"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "GarageBand", id: 682658836
@@ -85,5 +95,6 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Motion", id: 434290957
 mas "Numbers", id: 409203825
+mas "OmniGraffle", id: 1142578753
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
