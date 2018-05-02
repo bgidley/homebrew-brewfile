@@ -9,6 +9,7 @@ brew "atlassian-cli"
 brew "aws-elasticbeanstalk"
 brew "gdbm"
 brew "sqlite"
+brew "python"
 brew "awscli"
 brew "cmake"
 brew "cocoapods"
@@ -44,7 +45,7 @@ brew "node", link: false
 brew "p7zip"
 brew "postgresql", restart_service: true
 brew "pstree"
-brew "python"
+brew "pyenv"
 brew "rename"
 brew "ruby"
 brew "tmux"
@@ -93,8 +94,13 @@ mas "Final Cut Pro", id: 424389933
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Motion", id: 434290957
 mas "Numbers", id: 409203825
 mas "OmniGraffle", id: 1142578753
+mas "OmniPlan", id: 404656809
 mas "Pages", id: 409201541
+mas "SVG Converter", id: 1075707641
+mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
