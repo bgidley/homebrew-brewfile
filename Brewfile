@@ -1,13 +1,15 @@
-tap "caskroom/cask"
 tap "homebrew/boneyard"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+cask "java"
+cask "xquartz"
+brew "atlassian-cli"
 brew "gdbm"
 brew "sqlite"
-brew "python"
 brew "aws-elasticbeanstalk"
+brew "python"
 brew "awscli"
 brew "cmake"
 brew "cocoapods"
@@ -57,8 +59,6 @@ brew "yarn"
 brew "yuicompressor"
 brew "zsh"
 brew "zsh-completions"
-cask "adobe-acrobat-reader"
-cask "adobe-creative-cloud"
 cask "atom"
 cask "charles"
 cask "cyberduck"
@@ -85,16 +85,15 @@ cask "skype"
 cask "skype-for-business"
 cask "slack"
 cask "snagit"
-cask "spotify"
 cask "steam"
 cask "telegram"
 cask "textmate"
 cask "visual-studio-code"
 cask "vlc"
-cask "vmware-fusion"
 cask "whatsapp"
 cask "xmind"
 cask "xquartz"
+cask "deezer"
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
 mas "GarageBand", id: 682658836
@@ -105,8 +104,5 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To-Do", id: 1274495053
 mas "Motion", id: 434290957
 mas "Numbers", id: 409203825
-mas "OmniGraffle", id: 1142578753
-mas "OmniPlan", id: 404656809
 mas "Pages", id: 409201541
-mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
