@@ -26,10 +26,8 @@ cask "drawio"
 cask "google-chrome"
 cask "gpg-suite"
 cask "gramps"
-cask "ichm"
 cask "inkscape"
 cask "iterm2"
-cask "java"
 cask "jetbrains-toolbox"
 cask "keepassxc"
 cask "obs"
@@ -44,7 +42,6 @@ cask "vlc"
 cask "whatsapp"
 cask "xmind"
 cask "xquartz"
-mas "AdGuard for Safari", id: 1440147259
 mas "Bitwarden", id: 1352778147
 mas "Compressor", id: 424390742
 mas "Final Cut Pro", id: 424389933
